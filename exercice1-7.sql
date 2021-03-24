@@ -1,0 +1,4 @@
+SELECT PROF , AVG(SAL) as moy FROM Employes 
+GROUP BY PROF
+ORDER BY moy ASC 
+LIMIT 1

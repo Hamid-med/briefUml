@@ -1,0 +1,1 @@
+SELECT SUM(PrixLog) as "cout_total_du_projet" FROM Logiciel WHERE NumProj=10
